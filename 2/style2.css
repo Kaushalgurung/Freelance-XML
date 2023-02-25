@@ -1,0 +1,77 @@
+Item{
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    border: ridge 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 340px;
+    height: 250px;
+    display: inline-block;
+}
+Lunch::before {
+    content: "Lunch: ";
+    font-family: "system-ui";
+    font-weight: bolder;
+    display:inline-block;
+    }
+Lunch{
+        display: block;
+    }
+Cost::before {
+    content: "Price: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display: inline-block;
+    position:relative;
+    margin-top: 30%;
+    }
+Description::before {
+    content: "Description: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display:block;
+    }
+#image_1 {
+        background-image: url(https://rnz-ressh.cloudinary.com/image/upload/s--52NBeEtx--/c_scale,f_auto,q_auto,w_1050/4M3DOD2_image_crop_131201);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_2 {
+        background-image: url(https://thumbs.dreamstime.com/b/sourdough-toast-bread-sandwich-cream-cheese-zucchini-courgette-dill-cafe-shop-sourdough-toast-bread-sandwich-159021044.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_3 {
+        background-image: url(http://kelliesfoodtoglow.com/wp-content/uploads/2011/03/dsc_0215.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+    
+#image_4 {
+        background-image: url(https://realfood.tesco.com/media/images/RFO-1400x919-MushroomKalePancakes-261e1e2a-6699-4531-8ca9-e98becb9d59f-0-1400x919.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }

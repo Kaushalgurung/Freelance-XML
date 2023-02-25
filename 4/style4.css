@@ -1,0 +1,77 @@
+Item{
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    border: ridge 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 340px;
+    height: 250px;
+    display: inline-block;
+}
+Cake::before {
+    content: "Cake: ";
+    font-family: "system-ui";
+    font-weight: bolder;
+    display:inline-block;
+    }
+Cake{
+        display: block;
+    }
+Cost::before {
+    content: "Price: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display: inline-block;
+    position:relative;
+    margin-top: 30%;
+    }
+Description::before {
+    content: "Description: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display:block;
+    }
+#image_1 {
+        background-image: url(https://media.tenor.com/vopVyuI7SmAAAAAC/carrot-cake-cake.gif);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_2 {
+        background-image: url(https://i.pinimg.com/originals/b0/fa/8c/b0fa8c3c2ae15780d287e42d7df3fc76.gif);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_3 {
+        background-image: url(https://thumbs.gfycat.com/GraySpecificAmericanbulldog-size_restricted.gif);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+    
+#image_4 {
+        background-image: url(https://www.mrsfoodiemumma.com/wp-content/uploads/2019/08/orange-and-poppyseed-cover-.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }

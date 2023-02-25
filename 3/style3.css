@@ -1,0 +1,77 @@
+Item{
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    border: ridge 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 340px;
+    height: 250px;
+    display: inline-block;
+}
+Clothes::before {
+    content: "Clothes: ";
+    font-family: "system-ui";
+    font-weight: bolder;
+    display:inline-block;
+    }
+Clothes{
+        display: block;
+    }
+Cost::before {
+    content: "Price: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display: inline-block;
+    position:relative;
+    margin-top: 30%;
+    }
+Description::before {
+    content: "Description: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display:block;
+    }
+#image_1 {
+        background-image: url(https://i.pinimg.com/originals/b5/c5/44/b5c5447c93b554e10ff4b9c1aa010e6f.gif);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_2 {
+        background-image: url(https://theshopyohjiyamamoto.com/img/goods/YV-S02-100/s-YV-S02-100_1-1.gif);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_3 {
+        background-image: url(http://38.media.tumblr.com/tumblr_ma2we0Ylhj1qedc45o1_500.gif);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+    
+#image_4 {
+        background-image: url(https://media.tenor.com/-iuXrqI67KYAAAAC/wearing-hat-cowboy-hat.gif);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }

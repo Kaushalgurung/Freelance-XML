@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Author: Sayaron Bam
+Date: 27th January, 2023 
+-->
+<?xml-stylesheet href="style3.css" type="text/css"?> 
+<Dress>
+    <Item catagory="Fabric">
+        <Clothes>Shift dress</Clothes>
+        <Image id="image_1"></Image>
+        <Cost currency="AUD">$45.00</Cost>
+        <Description>Simple shift, available in two colours. 100% cotton</Description> 
+    </Item>
+    <Item catagory="Fabric">
+        <Clothes>Wraparound skirt</Clothes>
+        <Image id="image_2"></Image>
+        <Cost currency="AUD">$30.00</Cost>
+        <Description>Simple wraparound skirt, available in two colours. 100% cotton</Description> 
+    </Item>
+    <Item catagory="Fabric">
+        <Clothes>Cardigan</Clothes>
+        <Image id="image_3"></Image>
+        <Cost currency="AUD">$70.00</Cost>
+        <Description>Winter cardigan, available in two colours. 100% wool.</Description> 
+    </Item>
+    <Item catagory="Fabric">
+        <Clothes>Dress hat</Clothes>
+        <Image id="image_4"></Image>
+        <Cost currency="AUD">$20.00</Cost>
+        <Description>Stylish dress hat, available in two colours. 100% linen.</Description> 
+    </Item>
+</Dress>

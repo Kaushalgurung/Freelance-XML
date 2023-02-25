@@ -1,0 +1,77 @@
+Item{
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    border: ridge 8px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    width: 340px;
+    height: 250px;
+    display: inline-block;
+}
+Sourdough_Type::before {
+    content: "Sourdough-Type: ";
+    font-family: "system-ui";
+    font-weight: bolder;
+    display: inline-block;
+    }
+Sourdough_Type{
+        display: block;
+    }
+Cost::before {
+    content: "Price: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    display: inline-block;
+    position:relative;
+    margin-top: 30%;
+    }
+Description::before {
+    content: "Description: ";
+    font-family: "system-ui";
+    font-weight: bold;
+    position:relative;
+    display: block;
+    }
+#image_1 {
+        background-image: url(https://media1.giphy.com/media/l3xUnuopGLpYqXdH8p/giphy.gif);
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_2 {
+        background-image: url(https://breadbythehour.com/wp-content/uploads/2022/05/wheat-and-rye-featured.gif);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+#image_3 {
+        background-image: url(https://www.theperfectloaf.com/wp-content/uploads/2016/04/theperfectloaf-spelt-sourdough-1-1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
+    
+    #image_4 {
+        background-image: url(https://images.squarespace-cdn.com/content/v1/6169e6f59ccec17162ec2396/1643932696166-T0UHZ01S3JDTHPBB1SRH/tempImageukn34T.gif?format=1500w);
+        background-repeat: no-repeat;
+        background-size: 100px;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        margin-left: 110px;
+        margin-top: .5%;
+    }
